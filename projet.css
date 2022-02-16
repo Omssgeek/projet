@@ -1,0 +1,157 @@
+
+
+header{
+    background-image: url(a1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:rgba(221, 218, 218, 0.809);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 50px 20px 50px 20px  ;
+    
+
+    
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+height: 50px;
+width: 100px ;
+background-color: gray;
+color: white;
+
+}
+.A1{
+    text-align: center;
+    padding: 40px 20px 40px 40px;
+}
+
+
+.conteneur{
+    display: flex;
+    background-color:rgb(45, 43, 43);
+    padding: 20px 50px 20px 50px;
+
+  
+
+    
+   
+    
+}
+
+.phone{
+    height:40%;
+    width: 40%;
+    flex-basis: 100%;
+}
+
+.item{
+    border: 5px solid grey;
+    text-align: center;
+    background-color: white;
+  
+    
+}
+
+
+
+
+
+
+
+
+.day{
+    text-align: center;
+    padding: 40px  20px 40px 40px ;
+}
+
+.bleu{
+    color: white;
+    background-color: rgb(37,144,212);
+    
+    text-align: center;
+    flex-basis: 100%;
+    padding: 40px 20px 40px 20px;
+    
+    
+}
+.AHH{
+    text-align: center;
+}
+
+.email{
+    border-radius: 180px 180px;
+    font-size: 40px;
+}
+
+.avant{
+    background-color: gray;
+    height: 160px;
+    text-align: center;
+    padding: 40px 20px 40px 20px ;
+   
+}
+
+
+footer{
+    background-color: rgb(36, 34, 34);
+
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    color: white;
+    
+}
+
+.gauch{
+    padding-left: 300px;                                                                                                                                                                                                       ;
+}
+button:hover{
+    background-color: honeydew;
+}
+.end
+{ color: rgb(0, 0, 240);;
+}
+
+
+
+
+
+figure{
+    text-align: center;
+    
+    width: 80%;
+    background-color: white;
+  
+    flex-direction: row;
+    
+   
+}
+.photo{
+   width: 100%;
+   height: 30%;
+}
+
+.Let{
+    margin-left: 50px
+}
+
+@media screen and (max-width:540px) {
+
+    .conteneur{
+        display: block;
+        background-color:rgb(45, 43, 43);
+        padding: 20px 30px 20px 40px;
+        
+    }
+
+    .email{
+        border-radius: 180px 180px;
+        font-size: 20px;
+    }
+
+    
+}
+
